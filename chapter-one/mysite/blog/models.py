@@ -2,6 +2,11 @@ from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
 
+#Model Manager
+class PublishedManager(models.Manager):
+    def get_queryset(self):
+        return super(PublishedManager,self).get_queryset().filter(status='published')
+
 #Models
 
 class Post(models.Model):
@@ -23,4 +28,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    #Model Managers
+    objects = models.Manager() #Default manager
+    published = PublishedManager()#Customer manager
+
 
