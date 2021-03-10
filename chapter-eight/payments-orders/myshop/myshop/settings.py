@@ -148,3 +148,5 @@ BRAINTREE_CONF = braintree.Configuration(
     BRAINTREE_PRIVATE_KEY,
     BRAINTREE_PUBLIC_KEY
 )
+
+STATIC_ROOT = os.path.join(BASE_DIR, 'static/')
