@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-03-13 05:49+0300\n"
-"PO-Revision-Date: 2021-03-13 03:09+0000\n"
+"PO-Revision-Date: 2021-03-13 03:49+0000\n"
 "Last-Translator: b'  <>'\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "Language: \n"
@@ -25,7 +25,7 @@ msgstr "Cantidad"
 
 #: cart/templates/cart/detail.html:6 cart/templates/cart/detail.html:10
 msgid "Your shopping cart"
-msgstr "Tu carro"
+msgstr "Tu-carro"
 
 #: cart/templates/cart/detail.html:14
 msgid "Image"
@@ -67,15 +67,15 @@ msgstr "Total"
 
 #: cart/templates/cart/detail.html:83
 msgid "People who bought this also bought"
-msgstr "Aplicar cupón"
+msgstr "Aplicar-cupón"
 
 #: cart/templates/cart/detail.html:96
 msgid "Apply a coupon"
-msgstr "Aplicar cupón"
+msgstr "Aplicar-cupón"
 
 #: cart/templates/cart/detail.html:105
 msgid "Continue Shopping"
-msgstr "Continuar comprando"
+msgstr "Continuar-comprando"
 
 #: cart/templates/cart/detail.html:108
 msgid "Checkout"
@@ -95,11 +95,11 @@ msgstr "Español"
 
 #: myshop/urls.py:24
 msgid "admin/"
-msgstr "la admini"
+msgstr "la-admini"
 
 #: myshop/urls.py:25
 msgid "cart/"
-msgstr "el carro"
+msgstr "el-carro"
 
 #: myshop/urls.py:26
 msgid "orders/"
@@ -107,7 +107,7 @@ msgstr "ordenar"
 
 #: myshop/urls.py:27
 msgid "payment/"
-msgstr "el pago"
+msgstr "el-pago"
 
 #: myshop/urls.py:28
 #, fuzzy
@@ -117,7 +117,7 @@ msgstr "Cupón"
 
 #: payment/urls.py:8
 msgid "process/"
-msgstr "el proceso"
+msgstr "el-proceso"
 
 #: payment/urls.py:9
 msgid "done/"
@@ -129,15 +129,15 @@ msgstr "cancelar"
 
 #: shop/templates/shop/base.html:9
 msgid "My Shop"
-msgstr "Mi tienda"
+msgstr "Mi-tienda"
 
 #: shop/templates/shop/base.html:15
 msgid "My shop"
-msgstr "Mi tienda"
+msgstr "Mi-tienda"
 
 #: shop/templates/shop/base.html:22
 msgid "Your cart"
-msgstr "Tu carro"
+msgstr "Tu-carro"
 
 #: shop/templates/shop/base.html:24
 #, python-format
@@ -159,11 +159,11 @@ msgstr[1] ""
 
 #: shop/templates/shop/base.html:32
 msgid "Your cart is empty."
-msgstr "Tu carro está vacío."
+msgstr "Tu-carro-está-vacío."
 
 #: shop/templates/shop/product/detail.html:25
 msgid "Add to cart"
-msgstr "Añadir al carro"
+msgstr "Añadir-al-carro"
 
 #: shop/templates/shop/product/list.html:6
 msgid "Products"
